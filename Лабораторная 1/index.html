@@ -4,155 +4,140 @@
         <meta charset="utf-8">
         <title>Страничка</title>
     </head>
-
     <style>
+        body {
+            background: url("https://i.ibb.co/CvJYbkj/pattern2.png");
+            background-size: 200px auto;
+            background-color: #ebeaea;
+            font-family: Tahoma;
+            line-height: 1.5;
+            font-size: 25px;
+        }
 
-            body {
-    background: url("https://i.ibb.co/CvJYbkj/pattern2.png");
-    background-size: 200px auto;
-    background-color: #ebeaea;
-    font-family: Tahoma;
-    line-height: 1.5;
-    font-size: 25px;
-}
+        .menu {
+            background-color: black;
+        }
 
-.menu {
-    background-color: black;
+        .card { 
+            margin-top: 100px;
+            display: block;
+            text-align: center;
+        }
 
-}
+        .card_1 { 
+            display: inline-block;
+            width: 300px;
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin: 30px;
+            background-color: white;
+            box-shadow: 0px 5px 30px #bebebe;
+            border-radius: 10px;
+        }
 
-.card { 
-    margin-top: 100px;
-    display: block;
-    text-align: center;
-}
+        .card_2 { 
+            display: inline-block;
+            max-width: 40%;
+            min-width: 350px;
+            padding: 20px;
+            margin: 30px;
+            background-color: white;
+            box-shadow: 0px 5px 30px #bebebe;
+            border-radius: 10px;
+        }
 
-.card1 { 
+        .card_photo {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
 
-    display: inline-block;
-    width: 300px;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 30px;
-    background-color: white;
-    box-shadow: 0px 5px 30px #bebebe;
-    border-radius: 10px;
-}
+        .card_title {
+            margin-top: 20px;
+            font-size: 16px;
+            text-align: center;
+        }
 
-.card2 { 
-    display: inline-block;
-    max-width: 40%;
-    min-width: 350px;
-    padding: 20px;
-    margin: 30px;
-    background-color: white;
-    box-shadow: 0px 5px 30px #bebebe;
-    border-radius: 10px;
-}
+        .card_text {
+            text-align: left;
+            margin-top: 25px;
+            font-size: 12px;
+        }
 
-.card-photo {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
+        .card_subtitle {
+            margin-top: 20px;
+            font-size: 18px;
+            text-align: center;
+            color: #1623af;
+        }
 
-}
+        .card_list {
+            text-align: left;
+            font-size: 16px;
+            padding-left: 21px;
+        }
+        .header {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            display: grid;
+            grid-template-columns: 60% 10% 10%;
+            max-height: 20%;
+            background-color: #000;
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+            box-shadow: 0px 5px 30px #bebebe;
+        }
 
-.card-title {
-    margin-top: 20px;
-    font-size: 16px;
-    text-align: center;
-}
+        .header_text {
+            position: relative;
+            left: 25%;
+            font-size: 25px;
+            font-family: Tahoma;
+            color: white;
+        }
 
-.card-text {
-    text-align: left;
-    margin-top: 25px;
-    font-size: 12px;
-}
-
-.card-subtitle {
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: center;
-    color: #1623af;
-}
-
-.card-spisok {
-    text-align: left;
-    font-size: 16px;
-    padding-left: 21px;
-}
-.shapka {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    display: grid;
-    grid-template-columns: 60% 10% 10%;
-    max-height: 20%;
-    background-color: #000;
-    border-bottom-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    box-shadow: 0px 5px 30px #bebebe;
-}
-
-.shapka-text {
-    position: relative;
-    left: 25%;
-    font-size: 25px;
-    font-family: Tahoma;
-    color: white;
-}
-
-.menu {
-    position: relative;
-    left: 60%;
-    margin: auto;
-    height: 30px;
-}
+        .menu {
+            position: relative;
+            left: 60%;
+            margin: auto;
+            height: 30px;
+        }
 
     </style>
-
     <body>
-
-        <div class="shapka">
-            <div class="shapka-text">
+        <div class="header">
+            <div class="header_text">
                 <p><b>Профиль      </b></p>
             </div>
-                <img class="menu" src="https://svgshare.com/i/buX.svg' title='0LTQu9GPINC70LDQsdC+0YDQsNGC0L7RgNC90L7QuSAx" alt="Профиль">
-                <img class="menu" src="https://svgshare.com/i/bs6.svg' title='0LTQu9GPINC70LDQsdC+0YDQsNGC0L7RgNC90L7QuSAx" alt="menu">
+            <img class="menu" src="https://svgshare.com/i/buX.svg' title='0LTQu9GPINC70LDQsdC+0YDQsNGC0L7RgNC90L7QuSAx" alt="Профиль">
+            <img class="menu" src="https://svgshare.com/i/bs6.svg' title='0LTQu9GPINC70LDQsdC+0YDQsNGC0L7RgNC90L7QuSAx" alt="menu">
         </div>
-
         <div class="card">
-
-        <div class="card1">
-            <img class="card-photo" src="https://svgshare.com/i/bsk.svg' title='0JTQu9GPINC70LDQsdC+0YDQsNGC0L7RgNC90L7QuSAx" alt="Капаклы Антон">
-            <h1 class="card-title">Капаклы Антон</h1>
+        <div class="card_1">
+            <img class="card_photo" src="https://svgshare.com/i/bsk.svg' title='0JTQu9GPINC70LDQsdC+0YDQsNGC0L7RgNC90L7QuSAx" alt="Капаклы Антон">
+            <h1 class="card_title">Капаклы Антон</h1>
         </div>
-        <div class="card2">
-            <div class="card-text">
-                
+        <div class="card_2">
+            <div class="card_text">
                 <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации Здесь ваш текст.</p>
-                
                 <p>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.</p>
-                
             </div>
-            
-            <h2 class="card-subtitle">Мои навыки:</h2>
-            <ul class="card-spisok">
+            <h2 class="card_subtitle">Мои навыки:</h2>
+            <ul class="card_list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
             </ul>
-            <h2 class="card-subtitle">Мои контакты:</h2>
-            <p class="card-title">Телефон: <a href="tel: +79821595020">+79821595020</a></p>
-            <p class="card-title">Email: <a href="mailto: kapakly0@gmail.com">kapakly0@gmail.com</a></p>
+            <h2 class="card_subtitle">Мои контакты:</h2>
+            <p class="card_title">Телефон: <a href="tel: +79821595020">+79821595020</a></p>
+            <p class="card_title">Email: <a href="mailto: kapakly0@gmail.com">kapakly0@gmail.com</a></p>
         </div>
     </div>
-
-        
     </body>
 </html>
